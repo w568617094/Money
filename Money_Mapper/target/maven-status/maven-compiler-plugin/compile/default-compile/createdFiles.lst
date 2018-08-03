@@ -1,0 +1,4 @@
+com\qfedu\mapper\user\LoginLogMapper.class
+com\qfedu\mapper\user\UserMapper.class
+com\qfedu\mapper\user\OpLogMapper.class
+com\qfedu\mapper\user\UserDetailMapper.class

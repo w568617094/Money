@@ -1,0 +1,4 @@
+com\qfedu\domain\user\UserDetail.class
+com\qfedu\domain\user\LoginLog.class
+com\qfedu\domain\user\User.class
+com\qfedu\domain\user\OpLog.class
