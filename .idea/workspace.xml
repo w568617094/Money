@@ -2,18 +2,90 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4de936f2-27cc-4d3e-bf17-7ebd9846851d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Money_AdminWeb/src/main/java/com/qfedu/controller/SysCOnfigController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Money_AdminWeb/src/main/java/com/qfedu/controller/SysLoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Money_AdminWeb/src/main/java/com/qfedu/controller/SysMenController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Money_AdminWeb/src/main/java/com/qfedu/controller/UserAuthController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Money_Core/src/main/java/com/qfedu/core/vo/RM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Money_Study/src/main/java/com/qfedu/activemq/ActiveMQPub_Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Money_Study/src/main/java/com/qfedu/activemq/ActiveMQRev_Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Money_Study/src/main/java/com/qfedu/activemq/ActiveMQSend_Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Money_Study/src/main/java/com/qfedu/activemq/ActiveMQSub_Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Money_Study/src/main/java/com/qfedu/activemq/Offer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Money_AdminService/src/main/java/com/qfedu/service/admin/AuthService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Money_AdminService/src/main/java/com/qfedu/service/admin/SpiderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Money_AdminService/src/main/java/com/qfedu/service/admin/impl/AuthServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Money_AdminService/src/main/java/com/qfedu/service/admin/impl/SpiderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Money_AdminService/src/main/java/com/qfedu/service/job/ScheduleJobService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Money_AdminService/src/main/java/com/qfedu/service/job/impl/ScheduleJobServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Money_AdminService/src/main/java/com/qfedu/service/news/NewsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Money_AdminService/src/main/java/com/qfedu/service/news/impl/NewsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Money_AdminWeb/src/main/java/com/qfedu/controller/AuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Money_AdminWeb/src/main/java/com/qfedu/controller/BaseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Money_AdminWeb/src/main/java/com/qfedu/controller/IndexController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Money_AdminWeb/src/main/java/com/qfedu/controller/QuartzController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Money_AdminWeb/src/main/java/com/qfedu/controller/SpiderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Money_Core/src/main/java/com/qfedu/core/ftl/FtlUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Money_Core/src/main/java/com/qfedu/core/mq/CommonMessageListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Money_Core/src/main/java/com/qfedu/core/schedule/QuartzJob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Money_Core/src/main/java/com/qfedu/core/schedule/ScheduleUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Money_Core/src/main/java/com/qfedu/core/spider/SpiderUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Money_Core/src/main/java/com/qfedu/core/to/MqBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Money_Domain/src/main/java/com/qfedu/domain/job/ScheduleJob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Money_Domain/src/main/java/com/qfedu/domain/loan/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Money_Domain/src/main/java/com/qfedu/domain/loan/Loan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Money_Domain/src/main/java/com/qfedu/domain/loan/LoanLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Money_Domain/src/main/java/com/qfedu/domain/loan/Risk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Money_Domain/src/main/java/com/qfedu/domain/news/News.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Money_Mapper/src/main/java/com/qfedu/mapper/job/ScheduleJobMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Money_Mapper/src/main/java/com/qfedu/mapper/loan/AccountMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Money_Mapper/src/main/java/com/qfedu/mapper/loan/AccountMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Money_Mapper/src/main/java/com/qfedu/mapper/loan/LoanLogMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Money_Mapper/src/main/java/com/qfedu/mapper/loan/LoanLogMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Money_Mapper/src/main/java/com/qfedu/mapper/loan/LoanMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Money_Mapper/src/main/java/com/qfedu/mapper/loan/LoanMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Money_Mapper/src/main/java/com/qfedu/mapper/loan/RiskMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Money_Mapper/src/main/java/com/qfedu/mapper/loan/RiskMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Money_Mapper/src/main/java/com/qfedu/mapper/news/NewsMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Money_Study/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Money_Study/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Money_AdminService/src/main/java/com/qfedu/service/admin/SysConfigService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Money_AdminService/src/main/java/com/qfedu/service/admin/SysConfigService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Money_AdminService/src/main/java/com/qfedu/service/admin/impl/SysConfigServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Money_AdminService/src/main/java/com/qfedu/service/admin/impl/SysConfigServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Money_AdminWeb/src/main/java/com/qfedu/controller/SysCOnfigController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Money_AdminWeb/src/main/java/com/qfedu/controller/SysConfigController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Money_AdminWeb/src/main/java/com/qfedu/controller/SysRoleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Money_AdminWeb/src/main/java/com/qfedu/controller/SysRoleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Money_Core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Money_Core/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Money_Core/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Money_Core/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Money_Core/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Money_Core/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Money_Domain/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Money_Domain/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Money_Domain/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Money_Domain/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Money_Mapper/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Money_Mapper/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Money_Mapper/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Money_Mapper/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Money_SSOService/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Money_SSOService/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Money_SSOService/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Money_SSOService/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Money_SSOServiceProvider/target/Money_SSOServiceProvider-1.0.0/WEB-INF/classes/dbconfig.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Money_SSOServiceProvider/target/Money_SSOServiceProvider-1.0.0/WEB-INF/classes/dubboconfig.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Money_SSOServiceProvider/target/Money_SSOServiceProvider-1.0.0/WEB-INF/classes/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Money_SSOServiceProvider/target/Money_SSOServiceProvider-1.0.0/WEB-INF/classes/redisconfig.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Money_SSOServiceProvider/target/Money_SSOServiceProvider-1.0.0/WEB-INF/classes/spring-dao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Money_SSOServiceProvider/target/Money_SSOServiceProvider-1.0.0/WEB-INF/classes/spring-dubboprovider.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Money_SSOServiceProvider/target/Money_SSOServiceProvider-1.0.0/WEB-INF/classes/spring-id.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Money_SSOServiceProvider/target/Money_SSOServiceProvider-1.0.0/WEB-INF/classes/spring-redis.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Money_SSOServiceProvider/target/Money_SSOServiceProvider-1.0.0/WEB-INF/classes/spring-service.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Money_SSOServiceProvider/target/Money_SSOServiceProvider-1.0.0/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Money_SSOServiceProvider/target/classes/dbconfig.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Money_SSOServiceProvider/target/classes/dubboconfig.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Money_SSOServiceProvider/target/classes/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Money_SSOServiceProvider/target/classes/redisconfig.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Money_SSOServiceProvider/target/classes/spring-dao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Money_SSOServiceProvider/target/classes/spring-dubboprovider.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Money_SSOServiceProvider/target/classes/spring-id.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Money_SSOServiceProvider/target/classes/spring-redis.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Money_SSOServiceProvider/target/classes/spring-service.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Money_SSOServiceProvider/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Money_SSOServiceProvider/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Money_SSOServiceProvider/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Money_SSOServiceProvider/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Money_SSOServiceProvider/target/tomcat/conf/logging.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Money_SSOServiceProvider/target/tomcat/conf/tomcat-users.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Money_SSOServiceProvider/target/tomcat/conf/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Money_SSOServiceProvider/target/tomcat/logs/access_log.2018-07-31" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -45,13 +117,61 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SysCOnfigController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Money_AdminWeb/src/main/java/com/qfedu/controller/SysCOnfigController.java">
+      <file leaf-file-name="LoanMapper.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Money_Mapper/src/main/java/com/qfedu/mapper/loan/LoanMapper.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="ScheduleJobService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Money_AdminService/src/main/java/com/qfedu/service/job/ScheduleJobService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="179">
+              <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ScheduleJobServiceImpl.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Money_AdminService/src/main/java/com/qfedu/service/job/impl/ScheduleJobServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="63" column="5" lean-forward="true" selection-start-line="63" selection-start-column="5" selection-end-line="63" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BaseController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Money_AdminWeb/src/main/java/com/qfedu/controller/BaseController.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="IndexController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Money_AdminWeb/src/main/java/com/qfedu/controller/IndexController.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="QuartzController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Money_AdminWeb/src/main/java/com/qfedu/controller/QuartzController.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="AuthController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Money_AdminWeb/src/main/java/com/qfedu/controller/AuthController.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="SpiderController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Money_AdminWeb/src/main/java/com/qfedu/controller/SpiderController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="186">
+              <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SpiderUtil.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Money_Core/src/main/java/com/qfedu/core/spider/SpiderUtil.java">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -71,17 +191,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Money_SSOServiceProvider/pom.xml" />
-        <option value="$PROJECT_DIR$/Money_AdminWeb/src/main/java/com/qfedu/service/shiro/AdminRealm.java" />
-        <option value="$PROJECT_DIR$/Money_AdminService/pom.xml" />
-        <option value="$PROJECT_DIR$/Money_Domain/src/main/java/com/qfedu/domain/user/SysUser.java" />
-        <option value="$PROJECT_DIR$/Money_Domain/src/main/java/com/qfedu/domain/admin/SysUser.java" />
-        <option value="$PROJECT_DIR$/Money_Domain/src/main/java/com/qfedu/domain/oss/OSSPo.java" />
-        <option value="$PROJECT_DIR$/Money_Mapper/src/main/java/com/qfedu/mapper/oss/OSSPoMapper.java" />
-        <option value="$PROJECT_DIR$/Money_UIConroller/src/main/resources/dbconfig.properties" />
-        <option value="$PROJECT_DIR$/Money_UIConroller/src/main/resources/dubboconfig.properties" />
-        <option value="$PROJECT_DIR$/Money_UIConroller/src/main/resources/redisconfig.properties" />
-        <option value="$PROJECT_DIR$/Money_UIConroller/src/main/resources/springMVC.xml" />
         <option value="$PROJECT_DIR$/Money_UIConroller/src/main/resources/ossconfig.properties" />
         <option value="$PROJECT_DIR$/Money_Service/src/main/java/com/qfedu/service/user/UserDetailService.java" />
         <option value="$PROJECT_DIR$/Money_UIConroller/src/main/java/com/qfedu/uicontroller/oss/OssController.java" />
@@ -104,7 +213,6 @@
         <option value="$PROJECT_DIR$/Money_AdminService/src/main/java/com/qfedu/service/admin/impl/SysMenuServiceImpl.java" />
         <option value="$PROJECT_DIR$/Money_AdminService/src/main/java/com/qfedu/service/admin/impl/SysLogServiceImpl.java" />
         <option value="$PROJECT_DIR$/Money_AdminService/src/main/java/com/qfedu/service/admin/SysConfigService.java" />
-        <option value="$PROJECT_DIR$/Money_AdminService/src/main/java/com/qfedu/service/admin/impl/SysConfigServiceImpl.java" />
         <option value="$PROJECT_DIR$/Money_Domain/src/main/java/com/qfedu/domain/admin/SysConfig.java" />
         <option value="$PROJECT_DIR$/Money_AdminWeb/src/main/java/com/qfedu/controller/dbconfig.properties" />
         <option value="$PROJECT_DIR$/Money_AdminWeb/src/main/resources/dbconfig.properties" />
@@ -119,9 +227,21 @@
         <option value="$PROJECT_DIR$/Money_Study/src/main/java/com/qfedu/activemq/ActiveMQSub_Main.java" />
         <option value="$PROJECT_DIR$/Money_AdminWeb/src/main/java/com/qfedu/controller/UserAuthController.java" />
         <option value="$PROJECT_DIR$/Money_Core/src/main/java/com/qfedu/core/vo/RM.java" />
-        <option value="$PROJECT_DIR$/Money_AdminWeb/src/main/java/com/qfedu/controller/SysMenController.java" />
         <option value="$PROJECT_DIR$/Money_AdminWeb/src/main/java/com/qfedu/controller/SysLoginController.java" />
         <option value="$PROJECT_DIR$/Money_AdminWeb/src/main/java/com/qfedu/controller/SysCOnfigController.java" />
+        <option value="$PROJECT_DIR$/Money_AdminWeb/src/main/java/com/qfedu/controller/SysMenController.java" />
+        <option value="$PROJECT_DIR$/Money_AdminWeb/src/main/java/com/qfedu/controller/SysRoleController.java" />
+        <option value="$PROJECT_DIR$/Money_AdminWeb/src/main/java/com/qfedu/controller/SysConfigController.java" />
+        <option value="$PROJECT_DIR$/Money_AdminService/src/main/java/com/qfedu/service/admin/impl/SysConfigServiceImpl.java" />
+        <option value="$PROJECT_DIR$/Money_AdminService/src/main/java/com/qfedu/service/admin/impl/SpiderServiceImpl.java" />
+        <option value="$PROJECT_DIR$/Money_AdminService/src/main/java/com/qfedu/service/news/impl/NewsServiceImpl.java" />
+        <option value="$PROJECT_DIR$/Money_AdminWeb/src/main/java/com/qfedu/controller/SpiderController.java" />
+        <option value="$PROJECT_DIR$/Money_Core/src/main/java/com/qfedu/core/ftl/FtlUtil.java" />
+        <option value="$PROJECT_DIR$/Money_Core/src/main/java/com/qfedu/core/mq/CommonMessageListener.java" />
+        <option value="$PROJECT_DIR$/Money_Core/pom.xml" />
+        <option value="$PROJECT_DIR$/Money_AdminService/src/main/java/com/qfedu/service/job/impl/ScheduleJobServiceImpl.java" />
+        <option value="$PROJECT_DIR$/Money_Core/src/main/java/com/qfedu/core/spider/SpiderUtil.java" />
+        <option value="$PROJECT_DIR$/Money_AdminWeb/src/main/java/com/qfedu/controller/SpiderControlller.java" />
       </list>
     </option>
   </component>
@@ -151,20 +271,29 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="Money_SSOService" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Money" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="Money_SSOService" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Money" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="Money" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Money_AdminService" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="Money" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Money_AdminService" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Money_AdminWeb" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Money_AdminWeb" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
         <path>
@@ -201,6 +330,15 @@
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="Money_Service" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Money_SSOService" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Money_SSOService" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
         <path>
@@ -233,8 +371,9 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="660" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="680" />
     <option name="height" value="723" />
   </component>
@@ -247,13 +386,89 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="Money" type="b2602c69:ProjectViewProjectNode" />
               <item name="Money" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Money" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Money" type="462c0819:PsiDirectoryNode" />
+              <item name="Money_AdminService" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Money" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Money" type="462c0819:PsiDirectoryNode" />
+              <item name="Money_AdminService" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Money" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Money" type="462c0819:PsiDirectoryNode" />
+              <item name="Money_AdminService" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Money" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Money" type="462c0819:PsiDirectoryNode" />
+              <item name="Money_AdminService" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Money" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Money" type="462c0819:PsiDirectoryNode" />
+              <item name="Money_AdminService" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Money" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Money" type="462c0819:PsiDirectoryNode" />
+              <item name="Money_AdminService" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Money" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Money" type="462c0819:PsiDirectoryNode" />
+              <item name="Money_AdminService" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Money" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Money" type="462c0819:PsiDirectoryNode" />
+              <item name="Money_AdminService" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="job" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Money" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Money" type="462c0819:PsiDirectoryNode" />
+              <item name="Money_AdminService" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="job" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Money" type="b2602c69:ProjectViewProjectNode" />
@@ -293,6 +508,14 @@
             <path>
               <item name="Money" type="b2602c69:ProjectViewProjectNode" />
               <item name="Money" type="462c0819:PsiDirectoryNode" />
+              <item name="Money_AdminWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Money" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Money" type="462c0819:PsiDirectoryNode" />
               <item name="Money_Core" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -333,12 +556,123 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="vo" type="462c0819:PsiDirectoryNode" />
+              <item name="spider" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Money" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Money" type="462c0819:PsiDirectoryNode" />
+              <item name="Money_Domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Money" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Money" type="462c0819:PsiDirectoryNode" />
+              <item name="Money_Domain" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Money" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Money" type="462c0819:PsiDirectoryNode" />
+              <item name="Money_Domain" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Money" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Money" type="462c0819:PsiDirectoryNode" />
+              <item name="Money_Domain" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Money" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Money" type="462c0819:PsiDirectoryNode" />
+              <item name="Money_Domain" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Money" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Money" type="462c0819:PsiDirectoryNode" />
+              <item name="Money_Domain" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Money" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Money" type="462c0819:PsiDirectoryNode" />
+              <item name="Money_Domain" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+              <item name="job" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Money" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Money" type="462c0819:PsiDirectoryNode" />
+              <item name="Money_Domain" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+              <item name="loan" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Money" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Money" type="462c0819:PsiDirectoryNode" />
+              <item name="Money_Domain" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+              <item name="news" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Money" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Money" type="462c0819:PsiDirectoryNode" />
+              <item name="Money_Mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Money" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Money" type="462c0819:PsiDirectoryNode" />
+              <item name="Money_Mapper" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Money" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Money" type="462c0819:PsiDirectoryNode" />
+              <item name="Money_Mapper" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Money" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Money" type="462c0819:PsiDirectoryNode" />
+              <item name="Money_Mapper" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Money" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Money" type="462c0819:PsiDirectoryNode" />
+              <item name="Money_Mapper" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -354,25 +688,25 @@
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\java\work\idea\Money\Money_AdminWeb\src\main\resources" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.qfedu.core.spider" />
+      <recent name="com.qfedu.core.mq" />
+      <recent name="com.qfedu.core.ftl" />
+      <recent name="com.qfedu.domain.news" />
+      <recent name="com.qfedu.mapper.news" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\java\work\idea\Money\Money_AdminWeb\src\main\java\com\qfedu\controller" />
-      <recent name="D:\java\work\idea\Money\Money_AdminWeb\src\main" />
-      <recent name="D:\java\work\idea\Money\Money_Core\src\main\java\com\qfedu\core\vo" />
+      <recent name="D:\java\work\idea\Money\Money_Mapper\src\main\java\com\qfedu\mapper" />
+      <recent name="D:\java\work\idea\Money\Money_AdminService\src\main\java\com\qfedu\service" />
       <recent name="D:\java\work\idea\Money\Money_Core\src\main\java\com\qfedu\core" />
-      <recent name="D:\java\work\idea\Money\Money_Mapper\src\main\java\com\qfedu\mapper\admin" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.qfedu.core.vo" />
-      <recent name="com.qfedu.activemq" />
-      <recent name="com.qfedu.core.test" />
-      <recent name="com.qfedu.core.shiro" />
-      <recent name="com.qfedu.sso.service" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\java\work\idea\Money\Money_AdminWeb\src\main\resources" />
+      <recent name="D:\java\work\idea\Money\Money_Domain\src\main\java\com\qfedu\domain" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -497,6 +831,7 @@
     </configuration>
     <list>
       <item itemvalue="Maven.Unnamed" />
+      <item itemvalue="Application.ActiveMQRev_Main" />
       <item itemvalue="Application.ActiveMQSend_Main" />
       <item itemvalue="Application.ActiveMQPub_Main" />
       <item itemvalue="Application.ActiveMQSub_Main" />
@@ -528,20 +863,21 @@
       <workItem from="1533277297857" duration="162000" />
       <workItem from="1533277470292" duration="210000" />
       <workItem from="1533283926717" duration="1925000" />
-      <workItem from="1533286015273" duration="12263000" />
+      <workItem from="1533286015273" duration="12841000" />
+      <workItem from="1533364103231" duration="5258000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67736000" />
+    <option name="totallyTimeSpent" value="73572000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="660" y="0" width="680" height="723" extended-state="1" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="3" weight="0.40603566" />
+      <window_info anchor="right" id="Maven Projects" order="3" weight="0.46774194" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
@@ -551,7 +887,6 @@
       <window_info id="UI Designer" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="8" weight="0.32569557" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
@@ -560,17 +895,18 @@
       <window_info anchor="bottom" id="Run" order="2" weight="0.45826513" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.44516128" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25037822" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="BPMNPalette" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.32569557" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -585,193 +921,34 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Money_Mapper/src/main/java/com/qfedu/mapper/admin/SysUserMapper.java">
+    <entry file="file://$PROJECT_DIR$/Money_Study/src/main/java/com/qfedu/activemq/ActiveMQPub_Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="15" column="35" lean-forward="true" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+        <state relative-caret-position="350">
+          <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Money_Mapper/src/main/java/com/qfedu/mapper/admin/SysRoleMenuMapper.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Money_Mapper/src/main/java/com/qfedu/mapper/admin/SysMenuMapper.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Money_Mapper/src/main/java/com/qfedu/mapper/admin/SysRoleMapper.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Money_AdminService/src/main/java/com/qfedu/service/shiro/AdminRealm.java">
+    <entry file="file://$PROJECT_DIR$/Money_Core/src/main/java/com/qfedu/core/vo/RM.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="35" column="62" lean-forward="true" selection-start-line="35" selection-start-column="62" selection-end-line="35" selection-end-column="62" />
-        </state>
+        <state relative-caret-position="-427" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Money_Core/src/main/java/com/qfedu/core/shiro/ShiroUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-159" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Money_Core/src/main/java/com/qfedu/core/test/Md5_Main.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Money_Core/src/main/java/com/qfedu/core/vo/Query.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Money_Core/src/main/java/com/qfedu/core/vo/DataGridResult.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Money_AdminService/src/main/java/com/qfedu/service/admin/SysRoleService.java">
+    <entry file="file://$PROJECT_DIR$/Money_AdminWeb/src/main/java/com/qfedu/controller/UserAuthController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
-          <caret line="15" column="49" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
+          <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#360#361#0" expanded="true" />
+            <element signature="e#401#402#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Money_Domain/src/main/java/com/qfedu/domain/admin/SysUser.java">
+    <entry file="file://$PROJECT_DIR$/Money_AdminWeb/src/main/java/com/qfedu/controller/SysLoginController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Money_AdminService/src/main/java/com/qfedu/service/admin/SysLogService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Money_AdminService/src/main/java/com/qfedu/service/admin/impl/SysUserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1230">
-          <caret line="100" column="51" selection-start-line="100" selection-start-column="51" selection-end-line="100" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Money_AdminService/src/main/java/com/qfedu/service/admin/impl/SysRoleSeviceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="92" column="51" selection-start-line="92" selection-start-column="51" selection-end-line="92" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Money_AdminService/src/main/java/com/qfedu/service/admin/SysMenuService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Money_AdminService/src/main/java/com/qfedu/service/admin/impl/SysMenuServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1116">
-          <caret line="99" column="7" selection-start-line="99" selection-start-column="7" selection-end-line="99" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Money_AdminService/src/main/java/com/qfedu/service/admin/impl/SysLogServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="30" column="26" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Money_AdminService/src/main/java/com/qfedu/service/admin/SysConfigService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="31" lean-forward="true" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Money_Domain/src/main/java/com/qfedu/domain/admin/SysConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Money_AdminService/src/main/java/com/qfedu/service/admin/impl/SysConfigServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="41" column="24" lean-forward="true" selection-start-line="41" selection-start-column="24" selection-end-line="41" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Money_AdminWeb/src/main/java/com/qfedu/controller.java" />
-    <entry file="file://$PROJECT_DIR$/Money_AdminWeb/src/main/webapp/css/my.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Money_SSOServiceProvider/src/main/resources/dubboconfig.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="11" lean-forward="true" selection-start-column="11" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Money_AdminWeb/src/main/resources/dbconfig.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Money_AdminWeb/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Money_AdminWeb/src/main/resources/dubboconfig.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="20" selection-start-column="20" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Money_AdminWeb/src/main/resources/ehcache.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Money_AdminWeb/src/main/resources/ossconfig.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Money_AdminWeb/src/main/resources/redisconfig.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Money_AdminWeb/src/main/resources/spring-dao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-669" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Money_AdminWeb/src/main/resources/spring-redis.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Money_AdminWeb/src/main/resources/spring-service.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-744" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Money_AdminWeb/src/main/resources/spring-shiro.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="7" column="60" selection-start-line="7" selection-start-column="60" selection-end-line="7" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Money_AdminWeb/src/main/resources/springMVC.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-380" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Money_Core/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Money_AdminService/src/main/java/com/qfedu/service/admin/SysUserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        <state relative-caret-position="1175">
+          <caret line="47" column="37" selection-start-line="47" selection-start-column="37" selection-end-line="47" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -780,8 +957,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Money_AdminWeb/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
+        <state relative-caret-position="350">
           <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Money_AdminWeb/src/main/resources/spring-shiro.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="7" column="60" selection-start-line="7" selection-start-column="60" selection-end-line="7" selection-end-column="60" />
         </state>
       </provider>
     </entry>
@@ -797,111 +981,195 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Money_AdminWeb/src/main/java/com/qfedu/controller/SysRoleController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="32" lean-forward="true" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Money_Study/src/main/java/com/qfedu/activemq/Offer.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Money_Study/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="37" selection-start-line="37" selection-end-line="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../eclipse-jee-oxygen-3-win32-x86_64/eclipse/maven/org/apache/geronimo/specs/geronimo-jms_1.1_spec/1.1.1/geronimo-jms_1.1_spec-1.1.1.jar!/javax/jms/MessageListener.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Money_Study/src/main/java/com/qfedu/activemq/ActiveMQRev_Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1050">
-          <caret line="42" column="11" selection-start-line="42" selection-start-column="11" selection-end-line="42" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Money_Study/src/main/java/com/qfedu/activemq/ActiveMQSend_Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Money_Study/src/main/java/com/qfedu/activemq/ActiveMQSub_Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-300">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Money_Study/src/main/java/com/qfedu/activemq/ActiveMQPub_Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Money_AdminWeb/src/main/java/com/qfedu/controller/UserAuthController.java">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
-          <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+          <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#360#361#0" expanded="true" />
-            <element signature="e#396#397#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Money_Core/src/main/java/com/qfedu/core/vo/RM.java">
+    <entry file="file://$PROJECT_DIR$/Money_AdminWeb/src/main/resources/spring-service.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-427" />
+        <state relative-caret-position="-270">
+          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Money_AdminWeb/src/main/resources/springMVC.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="26" column="18" lean-forward="true" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Money_AdminWeb/src/main/java/com/qfedu/controller/SysMenController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="57" column="36" lean-forward="true" selection-start-line="57" selection-start-column="36" selection-end-line="57" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#529#530#0" expanded="true" />
-            <element signature="e#553#554#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Money_AdminWeb/src/main/java/com/qfedu/controller/SysLoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
-          <caret line="47" column="37" selection-start-line="47" selection-start-column="37" selection-end-line="47" selection-end-column="37" />
+        <state relative-caret-position="425">
+          <caret line="20" column="41" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Money_AdminWeb/src/main/java/com/qfedu/controller/SysCOnfigController.java">
+    <entry file="file://$PROJECT_DIR$/Money_AdminService/src/main/java/com/qfedu/service/admin/impl/SysConfigServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="33">
+          <caret line="13" column="43" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Money_AdminWeb/src/main/java/com/qfedu/controller/SysConfigController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-225">
+          <caret line="20" column="30" lean-forward="true" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Money_AdminService/src/main/java/com/qfedu/service/admin/SysConfigService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="11" column="12" lean-forward="true" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Money_AdminService/src/main/java/com/qfedu/service/admin/AuthService.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Money_AdminService/src/main/java/com/qfedu/service/admin/SpiderService.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Money_AdminService/src/main/java/com/qfedu/service/admin/impl/AuthServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Money_AdminService/src/main/java/com/qfedu/service/admin/impl/SpiderServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Money_Mapper/src/main/java/com/qfedu/mapper/news/NewsMapper.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Money_Domain/src/main/java/com/qfedu/domain/news/News.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Money_AdminService/src/main/java/com/qfedu/service/news/NewsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Money_AdminService/src/main/java/com/qfedu/service/news/impl/NewsServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Money_Domain/src/main/java/com/qfedu/domain/job/ScheduleJob.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Money_Domain/src/main/java/com/qfedu/domain/loan/LoanLog.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Money_Domain/src/main/java/com/qfedu/domain/loan/Loan.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Money_Domain/src/main/java/com/qfedu/domain/loan/Account.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Money_Domain/src/main/java/com/qfedu/domain/loan/Risk.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Money_Core/src/main/java/com/qfedu/core/ftl/FtlUtil.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Money_Core/src/main/java/com/qfedu/core/mq/CommonMessageListener.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Money_Core/src/main/java/com/qfedu/core/schedule/QuartzJob.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Money_Core/src/main/java/com/qfedu/core/schedule/ScheduleUtils.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Money_Core/src/main/java/com/qfedu/core/to/MqBean.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Money_Core/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="862">
+          <caret line="192" lean-forward="true" selection-start-line="192" selection-end-line="192" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Money_Mapper/src/main/java/com/qfedu/mapper/loan/LoanMapper.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Money_Mapper/src/main/java/com/qfedu/mapper/job/ScheduleJobMapper.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Money_Mapper/src/main/java/com/qfedu/mapper/loan/RiskMapper.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Money_Mapper/src/main/java/com/qfedu/mapper/loan/LoanLogMapper.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Money_Mapper/src/main/java/com/qfedu/mapper/loan/AccountMapper.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Money_Mapper/src/main/java/com/qfedu/mapper/loan/AccountMapper.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Money_Mapper/src/main/java/com/qfedu/mapper/loan/LoanLogMapper.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Money_Mapper/src/main/java/com/qfedu/mapper/loan/RiskMapper.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Money_Mapper/src/main/java/com/qfedu/mapper/loan/LoanMapper.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Money_AdminService/src/main/java/com/qfedu/service/job/ScheduleJobService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Money_Core/src/main/java/com/qfedu/core/spider/SpiderUtil.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Money_AdminWeb/src/main/java/com/qfedu/controller/BaseController.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Money_AdminWeb/src/main/java/com/qfedu/controller/IndexController.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Money_AdminWeb/src/main/java/com/qfedu/controller/QuartzController.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Money_AdminWeb/src/main/java/com/qfedu/controller/AuthController.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Money_AdminWeb/src/main/java/com/qfedu/controller/SpiderController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Money_AdminWeb/src/main/java/com/qfedu/controller/SpiderController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Money_AdminService/src/main/java/com/qfedu/service/job/impl/ScheduleJobServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="63" column="5" lean-forward="true" selection-start-line="63" selection-start-column="5" selection-end-line="63" selection-end-column="5" />
         </state>
       </provider>
     </entry>
